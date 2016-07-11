@@ -12,7 +12,7 @@ namespace Food_Order.DAL
     class dbConnect
     {
        //Connection String
-        string str = @"Data source= ice-db;Initial Catalog=Ice_Project_Directory;Integrated Security=true;";
+        string str = "Data Source=ice-db;Initial Catalog=Ice_Project_Directory;Max Pool Size=200;User Instance=false;Persist Security Info=True;user id = ICEDbUser;Password=production;Enlist=False;";
     //------------------------------------------------------------------------------------------------
         private SqlConnection sco;
         private SqlDataAdapter adp;
